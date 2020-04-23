@@ -4,9 +4,14 @@
  * @Github //github.com/hauk0101
  */
 
+// var fs = require('fs');
+// var ffmpegCommand = require('fluent-ffmpeg');
+// 下面内容需要修改一下，才能正常运行~~
 var fs = require('fs');
 var ffmpegCommand = require('fluent-ffmpeg');
-
+const ffmpegPath = require('@ffmpeg-installer/ffmpeg').path;
+ffmpegCommand.setFfmpegPath(ffmpegPath);
+// 内容需要修改一下，才能正常运行~~
 /**
  * 加密处理方法
  * @param options 加密相关参数
