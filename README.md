@@ -23,8 +23,8 @@
 
 > 2.启动项目
 *启动项目之前，先执行下面命令~~   要不然会报错哦~~
-*npm i 
-*npm install --save @ffmpeg-installer/ffmpeg
+* npm i 
+* npm install --save @ffmpeg-installer/ffmpeg
 * 在app目录下，输入`npm start`，启动项目
 * 在浏览器中访问 `http://localhost:3000`
 * 按照页面中的顺序进行相关操作
